@@ -1,6 +1,7 @@
 h1 {
     color: #000000;
     margin-bottom: 50px;
+    font-size: 40px;
 }
 
 .cards-box {
@@ -32,7 +33,9 @@ h1 {
             text-align: center;
             color: #000;
             width: 100%;
-            word-wrap: break-word;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
             &:nth-child(2) {
                 margin-bottom: 20px;
             }
